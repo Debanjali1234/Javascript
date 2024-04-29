@@ -9,6 +9,9 @@ function shop(m) {
         console.log("i can not buy milk");
     }
     return m;
+    //the below code is never executed
+    a=100;
+    console.log(a);
 }
 
-    console.log(shop(money));
+    console.log(shop(500));
